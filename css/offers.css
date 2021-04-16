@@ -1,0 +1,81 @@
+
+  .offers{
+      padding-left:10%;
+      padding-right:10%;
+      padding-bottom: 3%;
+      height: 1400px;
+  }
+
+  .offer-btn{
+    margin-top:50px;
+    padding:3%;
+    width:100%;
+    font-size:1rem;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #0be881; /* Green */
+}
+
+
+.offer-btn:hover {
+    background-color: #05c46b; /* Green */
+    color: white;
+  }
+
+.offer-price{
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    transition: 3 sec;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 20px 5px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #485460;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .offer-img{
+      height: 300px;
+      max-height: 600px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .offers{
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom: 3%;
+    }
+
+    .card{
+        margin: 5px 5px;
+    }
+  }

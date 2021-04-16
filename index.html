@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery Website</title>
+    <!-- fontstyle -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/challenge.css">
+    <link rel="stylesheet" href="css/offers.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+      <section class="navbar">
+        <div class="topnav" id="myTopnav">
+            <a href="#">Condact Us</a>
+            <a href="#">Advantages</a>
+            <a href="#">Products</a>
+            <a href="#">Revolution</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </section>
+
+    <section class="top">
+        <div class="row2">
+            <div id="grad" class="column2">
+                <div class="img-div">
+                    <img id="top-pic" src="images/top.png" alt="">
+                </div>
+            </div>
+            <div id="grad1" class="column2">
+                <h1 class="top-h1">WELCOME TO Grocery.com</h1>
+                <p class="top-reading">With stores in Mumbai, Pune and Bangalore and online delivery services, you can now have all your grocery supermarket shopping done online. We have a wide range of grocery products to offer at our stores for you to buy groceries from a channel convenient to you. Choose from fresh produce to packaged goods, buy groceries online and get them delivered straight to your doorstep, thus making it a convenient and quick process. You can pay for the shopping using credit cards, cash, coupons or online banking facility. We are sure to have all the grocery products for your daily dietary needs from regular local Indian brands and products to exotic and international imported ones.
+
+                </p>
+            </div>
+          </div>
+    </section>
+
+
+
+    <section class="slideshow">
+        <div class="slide">
+            <img class="mySlides" src="images/pic1.jpg">
+            <img class="mySlides" src="images/pic2.jpg">
+            <img class="mySlides" src="images/pic3.jpg">
+            <img class="mySlides" src="images/pic4.jpg">
+            <img class="mySlides" src="images/pic5.jpg">
+        </div>
+    </section>
+
+    <section class="challenges">
+        <div>
+            <h1 class="challange-heading">Challenges We Face ...</h1>
+        </div>
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width slides/quotes -->
+    <div class="mySlide">
+        <h5>Problem</h5>
+      <p>LABOUR COST</p>
+      <h5>Answer</h5>
+      <p>Controlling operational costs is certainly one of the biggest challenges that any retailer faces. Since grocery stores typically run on extremely low profit margins......</p><br>
+      <button class="challenge-btn">Read more</button>
+    </div>
+  
+    <div class="mySlide">
+        <h5>Problem</h5>
+      <p>HIGHER PRODUCTIVITY REQUIREMENTS AND FEWER RESOURCES</p>
+      <h5>Answer</h5>
+      <p>Grocery stores are always looking for ways to squeeze extra expenses out of every part of the profit and loss....</p><br>
+      <button class="challenge-btn">Read more</button>
+    </div>
+    <div class="mySlide">
+        <h5>Problem</h5>
+      <p>INEFFICIENT PROCESSES</p>
+      <h5>Answer</h5>
+      <p>These cause a lot of time wastages, equipment wear, and strain on the people who do the work.  Most often, inefficiency distress grocery stores that operate on a manual basis......</p><br>
+      <button class="challenge-btn">Read more</button>
+    </div>
+  
+  
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- Dots/bullets/indicators -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    
+    </section>
+
+    <section class="offers">
+        <div>
+          <h1 class="challange-heading">OFFERS OF THE DAY</h1>
+      </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">  <img src="images/offer1.jpg" class="offer-img" style="width:100%">
+              <div class="container">
+                <h4><b>Vegetables</b></h4>
+                <div class="offer-price"><s style="text-decoration:line-through">$20</s>
+                  &nbsp;&nbsp;&nbsp;<b>$5.3</b>
+              </div>
+              </div>
+              <button class="offer-btn">Add to Cart</button>
+          </div>
+          </div>
+          <div class="column">
+            <div class="card">  <img src="images/offer2.jpg" class="offer-img" style="width:100%">
+              <div class="container">
+                <h4><b>Pickles</b></h4>
+                <div class="offer-price"><s style="text-decoration:line-through">$10.3</s>
+                  &nbsp;&nbsp;&nbsp;<b>$4.99</b>
+              </div>
+              </div>
+              <button class="offer-btn">Add to Cart</button>
+          </div>
+          </div>
+          <div class="column">
+            <div class="card">  <img src="images/offer3.jpg" class="offer-img" style="width:100%">
+              <div class="container">
+                <h4><b>Diary</b></h4>
+                <div class="offer-price"><s style="text-decoration:line-through">$15.43</s>
+                  &nbsp;&nbsp;&nbsp;<b>$10.99</b>
+              </div>
+              </div>
+              <button class="offer-btn">Add to Cart</button>
+          </div>
+          </div>
+          <div class="column">
+            <div class="card">  <img src="images/offer4.jpg" class="offer-img" style="width:100%">
+              <div class="container">
+                <h4><b>Beverage</b></h4>
+                <div class="offer-price"><s style="text-decoration:line-through">$34.2</s>
+                  &nbsp;&nbsp;&nbsp;<b>$25.99</b>
+              </div>
+              </div>
+              <button class="offer-btn">Add to Cart</button>
+          </div>
+          </div>
+          <div class="column">
+              <div class="card">  <img src="images/offer5.jpg" class="offer-img" style="width:100%">
+                <div class="container">
+                  <h4><b>Coke</b></h4>
+                  <div class="offer-price"><s style="text-decoration:line-through">$6.99</s>
+                      &nbsp;&nbsp;&nbsp;<b>$3.22</b>
+                  </div>
+                </div>
+                <button class="offer-btn">Add to Cart</button>
+            </div>
+            </div>
+            <div class="column">
+              <div class="card">  <img src="images/offer6.jpg" class="offer-img" style="width:100%">
+                <div class="container">
+                  <h4><b>Hot Sauce</b></h4>
+                  <div class="offer-price"><s style="text-decoration:line-through">$8.99</s>
+                      &nbsp;&nbsp;&nbsp;<b>$4.99</b>
+                  </div>
+                </div>
+                <button class="offer-btn">Add to Cart</button>
+            </div>
+            </div>
+            <div class="column">
+              <div class="card">  <img src="images/offer7.jpg" class="offer-img" style="width:100%">
+                <div class="container">
+                  <h4><b>Chicken</b></h4>
+                  <div class="offer-price"><s style="text-decoration:line-through">$15.99</s>
+                      &nbsp;&nbsp;&nbsp;<b>$12.99</b>
+                  </div>
+                </div>
+                <button class="offer-btn">Add to Cart</button>
+            </div>
+            </div>
+            <div class="column">
+              <div class="card">  <img src="images/offer8.jpg" class="offer-img" style="width:100%">
+                <div class="container">
+                  <h4><b>Egg</b></h4>
+                  <div class="offer-price"><s style="text-decoration:line-through">$6.99</s>
+                      &nbsp;&nbsp;&nbsp;<b>$2.99</b>
+                  </div>
+                </div>
+                <button class="offer-btn">Add to Cart</button>
+            </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="social-section">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </section>
+
+  
+        <div class="footer">
+          <div class="contain">
+            <div class="col">
+              <h1>GIFT HAMPERS
+              </h1>
+              <ul>
+                <li>Birthday & Anniversary Gift Hampers
+                </li>
+                <li>World Cusine Gift Hampers</li>
+                <li>Coffe & Tea Hampers</li>
+                <li>Cheese & Meat Platters</li>
+                <li>Get Well Soon Hampers</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Fruits and Vegetables</h1>
+              <ul>
+                <li>Vegetables
+                </li>
+                <li>Exotic Vegetables
+                </li>
+                <li>Fruits
+                </li>
+                <li>Exotic Fruits
+                </li>
+                <li>Canned & Frozen
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>SNACKS & BEVERAGES
+              </h1>
+              <ul>
+                <li>Cookies & Crackers
+                </li>
+                <li>Frozen Snacks
+                </li>
+                <li>Antipasti
+                </li>
+                <li>Dry Snacks
+                </li>
+                <li>Fresh Snacks & Party Food
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>BREAKFAST & DAIRY</h1>
+              <ul>
+                <li>Cereals, Bars & Others
+                </li>
+                <li>Jams, Preserves & Conserves
+                </li>
+                <li>Honey
+                </li>
+                <li>Indian Breakfast Favourites
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+   
+
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/slideshow.js"></script>
+    <script src="javascript/challange.js"></script>
+</body>
+</html>
